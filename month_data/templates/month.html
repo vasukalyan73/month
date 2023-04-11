@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+    month ly 
+{% endblock  %}
+{% block content %}
+{% include 'incl.html' %}   
+    <h1> {{m|title}}'s message is </h1>
+    {% if message != none %}
+    <h1>{{message}}</h1>
+    {% else %}
+    <h1> No message for month {{m}}</h1>
+    {% endif %}
+    
+{% endblock %}

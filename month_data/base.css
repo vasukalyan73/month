@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap');
+html{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background-color: rgb(240, 244, 240);
+    margin: 0px;
+}
